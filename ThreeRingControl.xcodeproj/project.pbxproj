@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD200621E818D5E002B8ACB /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD200581E818D5E002B8ACB /* ThreeRingControl.framework */; };
+		3DD200671E818D5E002B8ACB /* ThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD200661E818D5E002B8ACB /* ThreeRingControlTests.swift */; };
+		3DD200691E818D5E002B8ACB /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DD2005B1E818D5E002B8ACB /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD200631E818D5E002B8ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD2004F1E818D5E002B8ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD200571E818D5E002B8ACB;
+			remoteInfo = ThreeRingControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD200581E818D5E002B8ACB /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD2005B1E818D5E002B8ACB /* ThreeRingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
+		3DD2005C1E818D5E002B8ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD200611E818D5E002B8ACB /* ThreeRingControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreeRingControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD200661E818D5E002B8ACB /* ThreeRingControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeRingControlTests.swift; sourceTree = "<group>"; };
+		3DD200681E818D5E002B8ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD200541E818D5E002B8ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2005E1E818D5E002B8ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD200621E818D5E002B8ACB /* ThreeRingControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD2004E1E818D5E002B8ACB = {
+			isa = PBXGroup;
+			children = (
+				3DD2005A1E818D5E002B8ACB /* ThreeRingControl */,
+				3DD200651E818D5E002B8ACB /* ThreeRingControlTests */,
+				3DD200591E818D5E002B8ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD200591E818D5E002B8ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD200581E818D5E002B8ACB /* ThreeRingControl.framework */,
+				3DD200611E818D5E002B8ACB /* ThreeRingControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD2005A1E818D5E002B8ACB /* ThreeRingControl */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2005B1E818D5E002B8ACB /* ThreeRingControl.h */,
+				3DD2005C1E818D5E002B8ACB /* Info.plist */,
+			);
+			path = ThreeRingControl;
+			sourceTree = "<group>";
+		};
+		3DD200651E818D5E002B8ACB /* ThreeRingControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD200661E818D5E002B8ACB /* ThreeRingControlTests.swift */,
+				3DD200681E818D5E002B8ACB /* Info.plist */,
+			);
+			path = ThreeRingControlTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DD200551E818D5E002B8ACB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD200691E818D5E002B8ACB /* ThreeRingControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3DD200571E818D5E002B8ACB /* ThreeRingControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD2006C1E818D5E002B8ACB /* Build configuration list for PBXNativeTarget "ThreeRingControl" */;
+			buildPhases = (
+				3DD200531E818D5E002B8ACB /* Sources */,
+				3DD200541E818D5E002B8ACB /* Frameworks */,
+				3DD200551E818D5E002B8ACB /* Headers */,
+				3DD200561E818D5E002B8ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThreeRingControl;
+			productName = ThreeRingControl;
+			productReference = 3DD200581E818D5E002B8ACB /* ThreeRingControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DD200601E818D5E002B8ACB /* ThreeRingControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD2006F1E818D5E002B8ACB /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */;
+			buildPhases = (
+				3DD2005D1E818D5E002B8ACB /* Sources */,
+				3DD2005E1E818D5E002B8ACB /* Frameworks */,
+				3DD2005F1E818D5E002B8ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD200641E818D5E002B8ACB /* PBXTargetDependency */,
+			);
+			name = ThreeRingControlTests;
+			productName = ThreeRingControlTests;
+			productReference = 3DD200611E818D5E002B8ACB /* ThreeRingControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD2004F1E818D5E002B8ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Danny Gilbert";
+				TargetAttributes = {
+					3DD200571E818D5E002B8ACB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22S6G5S8V4;
+						ProvisioningStyle = Automatic;
+					};
+					3DD200601E818D5E002B8ACB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 22S6G5S8V4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3DD200521E818D5E002B8ACB /* Build configuration list for PBXProject "ThreeRingControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DD2004E1E818D5E002B8ACB;
+			productRefGroup = 3DD200591E818D5E002B8ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD200571E818D5E002B8ACB /* ThreeRingControl */,
+				3DD200601E818D5E002B8ACB /* ThreeRingControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD200561E818D5E002B8ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2005F1E818D5E002B8ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD200531E818D5E002B8ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD2005D1E818D5E002B8ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD200671E818D5E002B8ACB /* ThreeRingControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD200641E818D5E002B8ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD200571E818D5E002B8ACB /* ThreeRingControl */;
+			targetProxy = 3DD200631E818D5E002B8ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DD2006A1E818D5E002B8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DD2006B1E818D5E002B8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DD2006D1E818D5E002B8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 22S6G5S8V4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThreeRingControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heb.ThreeRingControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DD2006E1E818D5E002B8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 22S6G5S8V4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ThreeRingControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heb.ThreeRingControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DD200701E818D5E002B8ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22S6G5S8V4;
+				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heb.ThreeRingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DD200711E818D5E002B8ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22S6G5S8V4;
+				INFOPLIST_FILE = ThreeRingControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.heb.ThreeRingControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD200521E818D5E002B8ACB /* Build configuration list for PBXProject "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2006A1E818D5E002B8ACB /* Debug */,
+				3DD2006B1E818D5E002B8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD2006C1E818D5E002B8ACB /* Build configuration list for PBXNativeTarget "ThreeRingControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD2006D1E818D5E002B8ACB /* Debug */,
+				3DD2006E1E818D5E002B8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DD2006F1E818D5E002B8ACB /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD200701E818D5E002B8ACB /* Debug */,
+				3DD200711E818D5E002B8ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD2004F1E818D5E002B8ACB /* Project object */;
+}
